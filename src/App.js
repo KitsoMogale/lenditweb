@@ -9,7 +9,7 @@ const App = () => {
 
       {/* Hero Section */}
       <section className="hero">
-        <h1>Lend. Rent. Trust.</h1>
+        <h1>Lend-It. Rent-It. Trust-Us.</h1>
         <p>
           Lendit helps you rent and lend items safely, with secure payments and trusted users in your area.
         </p>
