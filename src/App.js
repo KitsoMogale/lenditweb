@@ -74,53 +74,63 @@ const App = () => {
         </div>
       </section>
 
-      {/* Download CTA */}
       <section className="section download-cta">
-        <h2>Get the App</h2>
-        <p>Download Lendit on your favorite app store.</p>
-        <div className="download-buttons">
-          <a href="#" className="download-button">
-            <FaGooglePlay /> Google Play
-          </a>
-          <a href="#" className="download-button">
-            <FaAppStoreIos /> App Store
-          </a>
-        </div>
-        {/* Optional QR Code */}
-        <img src="/qr-code.png" alt="QR Code" />
-      </section>
+  <h2>Get the App</h2>
+  <p>Download Lendit on your favorite app store.</p>
+  <div className="download-buttons">
+    <a
+      href="https://play.google.com/store/apps/details?id=com.lendit.app"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="download-button"
+    >
+      <FaGooglePlay /> Google Play
+    </a>
+    <a
+      href="https://apps.apple.com/app/lendit/id1234567890"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="download-button"
+    >
+      <FaAppStoreIos /> App Store
+    </a>
+  </div>
+  {/* Optional QR Code */}
+  <img src="/qr-code.png" alt="QR Code" />
+</section>
 
-      {/* Footer */}
-      <footer>
-        <div className="footer-grid">
-          <div>
-            <h4>Lendit</h4>
-            <p>Your trusted rental companion.</p>
-          </div>
-          <div>
-            <h4>Company</h4>
-            <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
-          <div>
-            <h4>Legal</h4>
-            <ul>
-              <li><a href="#">Terms</a></li>
-              <li><a href="#">Privacy</a></li>
-            </ul>
-          </div>
-          <div>
-            <h4>Follow Us</h4>
-            <div className="social-links">
-              <a href="#">Twitter</a>
-              <a href="#">Instagram</a>
-              <a href="#">Facebook</a>
-            </div>
-          </div>
-        </div>
-      </footer>
+{/* Footer */}
+<footer>
+  <div className="footer-grid">
+    <div>
+      <h4>Lendit</h4>
+      <p>Your trusted rental companion.</p>
+    </div>
+    <div>
+      <h4>Company</h4>
+      <ul>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Legal</h4>
+      <ul>
+        <li><a href="/terms">Terms</a></li>
+        <li><a href="/privacy">Privacy</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Follow Us</h4>
+      <div className="social-links">
+        <a href="https://twitter.com/lenditapp" target="_blank" rel="noopener noreferrer">Twitter</a>
+        <a href="https://instagram.com/lenditapp" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://facebook.com/lenditapp" target="_blank" rel="noopener noreferrer">Facebook</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
     </div>
   );
 };
